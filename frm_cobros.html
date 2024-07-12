@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cobros</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+</head>
+
+<body>
+
+    <nav class="">
+        <ul class="">
+            <li class="">
+                <header>
+                    <h1 class="animate__animated animate__backInLeft">PHP</h1>
+                </header>
+            </li>
+            <li class="active"><a href="index.html" class="links">Persona</a></li>
+            <li class=""><a href="frm_empleado.html" class="links">Empleado</a></li>
+            <li class=""><a href="frm_cliente.html" class="links">Cliente</a></li>
+            <li class=""><a href="frm_ventas.html" class="links">Ventas</a></li>
+            <li class=""><a href="frm_administracion.html" class="links">Administración</a></li>
+            <li class=""><a href="frm_cobros.html" class="links">Cobros</a></li>
+
+        </ul>
+    </nav>
+    <br><br>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col col-4">
+
+                <h1 style=" color: white;" class="animate__animated animate__backInLeft">Cobros</h1>
+                <form action="objetos/objeto_cobros.php" method="post">
+                    <div class="mb-3" style="color: white;">
+                        <label for="txtCodigoEmpleado" class="form-label">Código de Empleado</label>
+                        <input type="number" id="txtCodigoEmpleado" name="txtCodigoEmpleado" class="form-control"
+                            placeholder="Ingrese su código de empleado">
+                    </div>
+                    <div class="mb-3" style=" color: white;">
+                        <label for="txtNombre" class="form-label">Nombre</label>
+                        <input type="text" id="txtNombre" name="txtNombre" class="form-control"
+                            placeholder="Ingrese su nombre">
+                    </div>
+                    <div class="mb-3" style=" color: white;">
+                        <label for="txtApellido" class="form-label">Apellido</label>
+                        <input type="text" id="txtApellido" name="txtApellido" class="form-control"
+                            placeholder="Ingrese su apellido">
+                    </div>
+                    <div class="mb-3" style=" color: white;">
+                        <label for="txtTelefono" class="form-label">Teléfono</label>
+                        <input type="number" id="txtTelefono" name="txtTelefono" class="form-control"
+                            placeholder="Ingrese su teléfono">
+                    </div>
+                    <div class="mb-3" style=" color: white;">
+                        <label for="txtDireccion" class="form-label">Dirección</label>
+                        <input type="text" id="txtDireccion" name="txtDireccion" class="form-control"
+                            placeholder="Ingrese su dirección">
+                    </div>
+                    <div class="mb-3" style=" color: white;">
+                        <label for="txtAcademico" class="form-label">Nivel Académico</label>
+                        <input type="text" id="txtAcademico" name="txtAcademico" class="form-control"
+                            placeholder="Ingrese su nivel académico">
+                    </div>
+                    <div class="mb-3" style=" color: white;">
+                        <label for="txtSueldoBase" class="form-label">Sueldo Base</label>
+                        <input type="number" id="txtSueldoBase" name="txtSueldoBase" class="form-control"
+                            placeholder="Ingrese su sueldo base">
+                    </div>
+                    <div class="mb-3" style=" color: white;">
+                        <label for="txtBonificacion" class="form-label">Bonificación</label>
+                        <input type="text" id="txtBonificacion" name="txtBonificacion" class="form-control"
+                            placeholder="Bonificacion">
+                    </div>
+                    <div class="mb-3" style=" color: white;">
+                        <label for="txtComisionCobros" class="form-label">Comisión Cobros</label>
+                        <input type="number" id="txtComisionCobros" name="txtComisionCobros" class="form-control"
+                            placeholder="Comisión Cobros">
+                    </div>
+
+                    <div class="mb-3">
+                        <input type="submit" value="Enviar"
+                            class="form-control btn btn-warning animate__animated animate__headShake"" name="
+                            btnEnviar">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        CREADO POR: 2022-046955 DAYLIN YOL
+    </footer>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-Ycbvyk1if5Kjr4EtpZc+V0zK0WltjF99bDhAu8RHteUG+6Bz4imktB2DlXDK/kF5"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

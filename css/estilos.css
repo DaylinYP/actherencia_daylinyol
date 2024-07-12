@@ -1,0 +1,74 @@
+body{
+    background-image: linear-gradient(to left, rgb(61, 118, 126), rgb(2, 47, 90));
+    margin: 90px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#bodyEmpleado{
+    background-image: linear-gradient(to left, pink, orange);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+header {
+    text-align: left;
+    color: white;
+    font-size: 40px;
+    text-shadow: 4px 2px #000000;
+
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 90px;
+    width: 100%;
+}
+
+nav ul {
+    float: left;
+    margin-left: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+li a.active,
+li a:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5;
+    
+}
+
+.check_btn {
+    font-size: 30px;
+    color: white;
+    float: left;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    margin-top: 350px;
+    font-size: 18px;
+    border-radius: 25px 0px;
+    height: 50px;
+}
